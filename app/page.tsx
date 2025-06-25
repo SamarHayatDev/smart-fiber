@@ -1,14 +1,30 @@
-import { ModeToggle } from "@/components/mode-toggler";
-import { Button } from "@/components/ui/button";
+import BestPlan from "@/components/best-plan";
+import FeatureBox from "@/components/feature-box";
+import Header from "@/components/header";
+import HeroSlider from "@/components/hero-slider";
+import Solutions from "@/components/solutions";
 
 export default function Home() {
   return (
     <>
-      <div className="flex justify-between items-center p-4 container mx-auto">
-        {" "}
-        <Button>Hello</Button>
-        <ModeToggle />
-      </div>
+      {/* header  */}
+      <Header />
+      {/* heroSection  */}
+      <HeroSlider />
+      {/* Best Plans */}
+      <BestPlan />
+      {/* Feature Box */}
+      <FeatureBox />
+      {/* perfect Solution 4 box Grid */}
+      <Solutions />
+      {/* CTA */}
+      {/* Pricing */}
+      {/* FAQ */}
+      {/* Contact */}
+      {/* Newsletter */}
+      {/* Blog */}
+      {/* Call to Action */}
+      {/* Footer  */}
     </>
   );
 }
