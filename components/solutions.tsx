@@ -28,7 +28,7 @@ const solutions = [
 
 const Solutions = () => {
   return (
-    <section className="py-16 bg-white container mx-auto max-w-screen-lg">
+    <section className="py-16 bg-white container mx-auto max-w-screen-lg px-4">
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
         Find Perfect Network Solutions
       </h2>
