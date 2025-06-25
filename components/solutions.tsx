@@ -35,7 +35,7 @@ const Solutions = () => {
 
       <div className="flex flex-col  md:flex-row items-stretch gap-8 mb-8">
         {/* Left side - 3 cards grid */}
-        <div className="grid grid-cols-1 grid-rows-1 md:grid-rows-2 md:grid-cols-2 gap-4 w-1/2">
+        <div className="grid grid-cols-1 grid-rows-1 md:grid-rows-2 md:grid-cols-2 gap-4 w-full md:w-1/2">
           {/* First card (top left) */}
           <Card className="border border-gray-200 rounded-xl shadow-none hover:shadow-md transition-shadow h-full group p-0">
             <CardContent className="flex flex-col items-start p-8 gap-4 h-full">
@@ -107,7 +107,7 @@ const Solutions = () => {
         </div>
 
         {/* Right side - image */}
-        <div className="w-1/2 flex items-center justify-center">
+        <div className="w-full md:w-1/2 flex items-center justify-center">
           <AspectRatio ratio={2 / 3}>
             <Image
               src="/dummy.jpg"
